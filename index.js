@@ -11,6 +11,7 @@ const stripe = require("stripe")('sk_test_51L1c26AQe13D7JV445RLBZTVrVHrVl6aC4Eea
 // const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 const port = process.env.PORT || 5000;
 const doctors = require("./routes/doctors");
+
 const doctor = require("./routes/doctor");
 const nurse = require('./routes/nurse')
 const staff = require('./routes/staff')
